@@ -14,10 +14,10 @@ Compile: `gcc ciphers.c -o ciphers`
        will be removed if present before encoding/decoding.
 <is_capitalized>: a boolean (0 or 1) indicating whether the output is in all caps.
 <cipher_name> [args]: encoding or decoding function followed by a list of arguments depending on the function.
+```
 
 Valid functions and their arguments, as well as a brief description and example of how each one works, are found in ciphers.h.
 Chain functions by alternating between ciphers and their arguments.
-```
 
 ## Examples
 ```
