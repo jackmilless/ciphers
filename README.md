@@ -16,7 +16,7 @@ Compile: `gcc ciphers.c -o ciphers`
 <cipher_name> [args]: encoding or decoding function followed by a list of arguments depending on the function.
 ```
 
-Valid functions and their arguments, as well as a brief description and example of how each one works, are found in ciphers.h.
+Valid functions and their arguments, as well as a brief description and example of how each one works, are found in **ciphers.h**.
 Chain functions by alternating between ciphers and their arguments.
 
 ## Examples
